@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-     origin: "https://nzm-website.vercel.app/", // عنوان الفرونت المحلي
+     origin: "https://nzm-website-2amz.vercel.app", // عنوان الفرونت المحلي
   methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
