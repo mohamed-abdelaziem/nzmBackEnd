@@ -7,7 +7,7 @@ export const sendContactForm = asyncHandler(async (req, res) => {
   if (!name || !email || !message || !projectType) {
     return res.status(400).json({
       success: false,
-      message: "name, email, and message are required",
+      message: "name, email, and message  , Project Type are required",
     });
   }
 
