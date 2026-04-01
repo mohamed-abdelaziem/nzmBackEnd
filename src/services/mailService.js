@@ -23,7 +23,7 @@ export const sendContactEmail = async ({ name, email, phone, message , projectTy
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Phone:</strong> ${phone || "Not provided"}</p>
-      <p>Project Type: ${projectType || 'Not Provided'}</p>
+      <p><strong>Project Type</strong>: ${projectType || 'Not Provided'}</p>
       <p><strong>Message:</strong>${message}</p>
     `,
   };
