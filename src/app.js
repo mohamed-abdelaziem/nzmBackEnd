@@ -9,8 +9,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: env.clientUrl,
-    credentials : true
+     origin: "http://localhost:3000", // عنوان الفرونت المحلي
+  methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
 
